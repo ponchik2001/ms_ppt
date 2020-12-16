@@ -1,0 +1,33 @@
+/*Шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+body{
+    
+}
+
+.slide{
+    max-width: 720px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+/*Слайд 1*/
+.slide-1{
+    background: url(../img/slide1-bg-2.png), url(../img/slide1-bg-1.png);
+    background-repeat: no-repeat;
+    background-position: top right -90px, center center;
+    box-sizing: border-box;
+}
+
+.slide-1 h2 {
+    font-family: Noto Sans;
+    font-size: 44px;
+    color: #fff;
+    margin-left: 60px;
+    line-height: 120%;
+    padding-top: 340px;
+}
+
+.slide-1 span {
+    color: #E3DB14;
+}
