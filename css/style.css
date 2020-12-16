@@ -400,15 +400,17 @@ body {
 .slide-6 {
     height: auto;
     background: #F4F4F4;
+    position: relative;
 }
 
 .slide-6 .slide-6-image {
     position: absolute;
-
+    z-index: 1;
+    left: 120px;
+    top: 284px;
 }
 
 .slide-6 .promo {
-    position: relative;
     background: url(../img/slide6-bg.png) no-repeat;
     max-width: 100%;
     height: 480px;
@@ -425,21 +427,319 @@ body {
 .slide-6 .slide-6-container {
     padding: 50px 45px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .slide-6 .item {
-    width: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.slide-6 .item img {}
+.slide-6 .item img {
+    
+}
 
 .slide-6 .item br {}
 
-.slide-6 .text {}
+.slide-6 .text {
+    margin-left: 25px;
+}
 
 .slide-6 .text br {}
+
+/*Слайд 7*/
+.slide-7 {
+    height: auto;
+    background: url(../img/slide7-bg.png) no-repeat, #fff;
+    background-position: bottom 50px right -70px;
+    padding-top: 100px;
+}
+
+.slide-7 h2 {
+    font-family: Noto Sans;
+    font-size: 32px;
+    color: #404040;
+}
+
+.title{
+    padding: 0 45px; 
+    font-family: Noto Sans;
+    font-size: 32px;
+    color: #404040;
+}
+
+.slide-7 .formul-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    padding: 0 45px; 
+}
+
+.slide-7 .formul-container .item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-items: flex-start;
+}
+
+.slide-7 .formul-container .item:last-child{
+     margin-right: 0px;
+}
+
+.equal{
+    margin-left: 50px;
+}
+
+.slide-7 .figure {
+    display: flex;
+    align-items: center;
+}
+
+.slide-7 span {
+    font-family: Noto Sans;
+    font-size: 12px;
+}
+
+.slide-7 .under-text {
+    font-family:Roboto;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #7F7F7F;
+    margin-right: -10px;
+}
+
+.slide-7 h4 {
+    font-family: Roboto;
+    font-size: 14px;
+    background: #2AA9E3;
+    color: #F2F2F2;
+    width: 31px;
+    margin-bottom: 35px;
+    margin-left: 45px; 
+}
+
+.slide-7 .result-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 45px; 
+}
+
+.slide-7 .result-container .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.slide-7 .result-container p {
+    margin-top: 20px;
+    font-family:Roboto;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #7F7F7F;
+    margin-right: -10px;
+}
+
+.slide-7 h3 {
+    font-family: Noto Sans;
+    font-size: 32px;
+    color: #2AA9E3;
+}
+
+.slide-7 h3:last-child{
+    font-family: Roboto;
+    font-size: 36px;    
+}
+
+.slide-7 h3 br {
+}
+.slide-7 .txt-container {
+    background: #2AA9E3;
+    padding: 0 50px 50px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.slide-7 .txt-container p {
+    padding-top: 70px;
+    width: 80%;
+    margin: 0 auto;
+}
+.slide-7 .txt-container br {
+}
+
+/*Слайд 8*/
+.slide-8 {
+    height: auto;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.slide-8 .price-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    padding: 0 50px;
+}
+
+.slide-8 .price-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide-8 .price-item p, .price-item{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #7F7F7F;
+}
+
+.slide-8 .price {
+    font-family: Noto Sans;
+    font-size: 32px;
+    color: #2AA9E3;
+}
+
+.slide-8 .slide-8-map {
+    background: url(../img/slide8-bg-1.png) no-repeat;
+    background-position: center center;
+    padding: 0 50px;
+}
+
+.slide-8 h4 {
+    font-family: Roboto;
+    font-size: 14px;
+    background: #2AA9E3;
+    color: #F2F2F2;
+    width: 103px;
+    margin-bottom: 25px;
+}
+
+.slide-8 .map-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.slide-8 .map-item {
+    display: flex;
+    align-items: center;
+}
+
+.slide-8 img {
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+}
+
+.slide-8 span {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #7F7F7F;
+}
+
+.slide-8 .subtitle {
+    font-family: Roboto;
+    font-size: 28px;
+    color: #2AA9E3;
+    padding-bottom: 20px;
+}
+
+.slide-8 b {
+    font-weight: bold;
+}
+
+.slide-8 .cost-container {
+    background: url(../img/slide8-bg-2.png) no-repeat,#2AA9E3;
+    background-position: right -70px center;
+    padding: 85px 50px;
+}
+.slide-8 .cost-container p {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #fff;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+.slide-8 .price2 {
+    font-family: Noto Sans;
+    font-size: 54px;
+    color: #fff;
+}
+
+/* Слайд 9 */
+.slide-9 {
+    height: auto;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.slide-9 .logos-container {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.slide-9 p {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #7F7F7F;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+.slide-9 .question {
+    background: url(../img/slide9-bg.png);
+    height: 480px;
+    padding: 0 50px;
+}
+
+.slide-9 h2 {
+    font-family: Roboto;
+    font-size: 28px;
+    color: #2AA9E3;
+    text-align: right;
+    padding-top: 70px;
+}
+
+.slide-9 .price-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 50px 0px;
+    background: #2AA9E3;
+    box-sizing: border-box;
+}
+.slide-9 .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.slide-9 .item p {
+    color: #fff;
+}
+
+.slide-9 h3 {
+    font-family: Noto Sans;
+    font-size: 60px;
+    color: #fff;
+}
 
 
 
@@ -475,5 +775,11 @@ body {
 
     .slide-4 .foto-container img {
         margin: 10px auto 0 auto;
+    }
+    .slide-8 .cost-container{
+        background: #2AA9E3;    
+    }
+    .slide-9 .logos-container img{
+        margin: 10px 0;
     }
 }
