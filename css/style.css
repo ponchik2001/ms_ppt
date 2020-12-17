@@ -1025,6 +1025,6 @@ body {
     }
     .slide-13 .contacts{
         padding-left: 0px;
-        box-sizing: border-box;
+        width: 99%;
     }
 }
