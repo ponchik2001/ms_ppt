@@ -741,6 +741,241 @@ body {
     color: #fff;
 }
 
+/*Слайд 10*/
+.slide-10 {
+    padding-top: 50px;
+    position: relative;
+    background: #fff;
+    height: auto;
+}
+
+.slide-10 img {
+    position: absolute;
+    right: -50px;
+    top: 100px;
+}
+
+.slide-10 .bg-foto {
+    background: url(../img/slide10-bg-2.png) no-repeat;
+    background-position: bottom center;
+    height: 510px;
+}
+
+.slide-10 .answer-why-container {
+    background: #2AA9E3;
+    padding: 70px;
+}
+
+.slide-10 h2 {
+    font-family: Noto Sans;
+    font-size: 32px;
+    line-height: 130%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.slide-10 p {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 130%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.slide-10 span {
+    background: #E3DB14;
+    color: #29A4DD;
+}
+
+/*Слайд 11*/
+.slide-11 {
+    height: auto;
+    padding-top: 50px;
+    position: relative;
+    background: #fff;
+}
+
+.slide-11 img {
+    position: absolute;
+    right: 50px;
+    bottom: 300px;
+}
+
+.slide-11 h2 {
+    color: #404040;
+    font-family: Noto Sans;
+    font-size: 32px;
+    line-height: 130%;
+    margin-bottom: 50px;
+    padding: 0 50px;
+}
+
+.slide-11 p {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: 20px;
+    color: #404040;
+    padding: 0 50px;
+}
+
+.slide-11 b {
+    font-weight: bold;
+}
+
+.slide-11 span {
+    background: #E3DB14;
+}
+.slide-11 .bg-foto {
+    background: url(../img/slide11-bg.png);
+    height: 480px;
+    margin-top: 70px;
+}
+
+/*Слайд 12*/
+.slide-12 {
+    height: auto;
+    padding-top: 50px;
+    background: #2AA9E3;
+}
+
+.slide-12 h2 {
+    font-family: Noto Sans;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+.slide-12 .answers-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 0 50px 30px;
+}
+
+.slide-12 .answers-container p {
+    margin-top: 20px;
+    width: 300px;
+    line-height: 150%;
+}
+
+.slide-12 span {
+    background: #E3DB14;
+    color: #2AA9E3;
+}
+
+.slide-12 .service-container {
+    background: #fff;
+    padding: 50px;
+}
+
+.slide-12 h3 {
+    font-family: Noto Sans;
+    font-size: 32px;
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+.slide-12 .items-container-service {
+    font-family: Roboto;
+    font-size:14px;
+    color: #404040; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.slide-12 .item-service {
+    width: 280px;
+    display: flex;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.slide-12 .item-service img {
+    height: 34px;
+    width: 34px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.slide-12 .logos-container {
+    padding: 50px;
+    background: #fff;
+}
+
+.slide-12 .items-container-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.slide-12 .items-container-logos img {
+    margin-top: 20px;
+}
+
+/*Слайд 13*/
+.slide-13 {
+    background: #fff;
+    padding-bottom: 50px;
+    padding-top: 540px;
+    height: 1021px;
+    background: url(../img/slide13-bg.png) no-repeat, #fff;
+    background-position: top center;
+    
+}
+
+.slide-13 .contacts-container {
+    color: #fff;
+    font-family: Roboto;
+}
+
+.slide-13 .contacts {
+    width: 60%;
+    margin: 0 auto;
+    border: 3px solid #E3DB14;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+}
+.slide-13 h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.slide-13 p {
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.slide-13 .number {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 0px;
+    line-height: 150%;
+}
+
+.slide-13 .footer {
+    
+}
+
+.slide-13 h3 {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #7F7F7F;
+    margin: 100px;
+    text-align: center;
+}
+
 
 
 @media (max-width:768px) {
@@ -781,5 +1016,14 @@ body {
     }
     .slide-9 .logos-container img{
         margin: 10px 0;
+    }
+    .slide-10 img{
+        right: 0px;
+    }
+    .slide-13 .contacts{
+        width: 100%;
+    }
+    .slide-13 .contacts{
+        padding-left: 0px;
     }
 }
